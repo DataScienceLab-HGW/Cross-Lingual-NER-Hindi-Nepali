@@ -1,0 +1,14 @@
+torch --index-url https://download.pytorch.org/whl/cu117
+transformers
+tensorboard
+datasets
+pandas
+scikit-learn
+tensorboardX
+seqeval
+sacremoses
+numpy
+optuna
+evaluate
+accelerate
+tf-keras
