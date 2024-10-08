@@ -1,0 +1,1 @@
+# Cross-Lingual-NER-Hindi-Nepali
