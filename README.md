@@ -40,15 +40,17 @@ The primary dependencies include:
 2. **Training**: To train the models on the Hindi and Nepali datasets, use the `trainer.py` script. This script includes functions for fine-tuning the pre-trained BERT models on the NER tasks. You can adjust hyperparameters such as learning rate, batch size, and number of epochs within the script to suit your specific requirements.
 
 3. **Evaluation**: Once training is complete, the models will be evaluated on monolingual and cross-lingual NER tasks. The evaluation results, including precision, recall, and F1 scores, will be logged using TensorBoard. These metrics can be accessed and visualized to understand the models' performance across different tasks.
-<!--
+
 If you use this repository in your research, please cite it using the following reference:
 ## Citation
-```latex
-@misc{yadav2024crosslingual,
-  author = {Dipendra Yadav and Kristina Yordanova},
-  title = {Cross-Lingual Named Entity Recognition Between Hindi and Nepali: Evaluating Multilingual BERT Models},
-  year = {2024},
-  howpublished = {\url{https://github.com/your-repo-url}},
-  note = {Experiments conducted as described in the paper.}
+```
+@inproceedings{
+yadav2024crosslingual,
+title={Cross-Lingual Named Entity Recognition for Low-Resource Languages: A Hindi-Nepali Case Study Using Multilingual {BERT} Models},
+author={Dipendra Yadav and Sumaiya Suravee and Tobias Strau{\ss} and Kristina Yordanova},
+booktitle={4th Multilingual Representation Learning Workshop},
+year={2024},
+url={https://openreview.net/forum?id=qYgu0mndh7}
 }
--->
+```
+
