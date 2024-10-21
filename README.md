@@ -41,8 +41,8 @@ The primary dependencies include:
 
 3. **Evaluation**: Once training is complete, the models will be evaluated on monolingual and cross-lingual NER tasks. The evaluation results, including precision, recall, and F1 scores, will be logged using TensorBoard. These metrics can be accessed and visualized to understand the models' performance across different tasks.
 
-If you use this repository in your research, please cite it using the following reference:
 ## Citation
+If you use this repository in your research, please cite it using the following reference:
 ```
 @inproceedings{
 yadav2024crosslingual,
