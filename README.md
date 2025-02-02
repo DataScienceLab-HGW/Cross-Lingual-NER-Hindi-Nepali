@@ -1,6 +1,6 @@
 # Cross-Lingual Named Entity Recognition between Hindi and Nepali
 
-This repository hosts the code and resources for conducting cross-lingual transfer learning experiments focused on Named Entity Recognition (NER) between Hindi and Nepali. This work forms part of a research study aimed at evaluating the effectiveness of pre-trained multilingual BERT models in monolingual and cross-lingual contexts, focusing on the linguistic similarities and differences between Hindi and Nepali.
+This repository hosts the code and resources for conducting cross-lingual transfer learning experiments focused on Named Entity Recognition (NER) between Hindi and Nepali. This work forms part of a research study aimed at evaluating the effectiveness of pre-trained multilingual BERT models in monolingual and cross-lingual contexts, focusing on the linguistic similarities and differences between Hindi and Nepali. The research paper can be found [here](https://aclanthology.org/2024.mrl-1.12/).
 
 ## Overview
 
