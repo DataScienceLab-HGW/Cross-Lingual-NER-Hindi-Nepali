@@ -44,13 +44,23 @@ The primary dependencies include:
 ## Citation
 If you use this repository in your research, please cite it using the following reference:
 ```
-@inproceedings{
-yadav2024crosslingual,
-title={Cross-Lingual Named Entity Recognition for Low-Resource Languages: A Hindi-Nepali Case Study Using Multilingual {BERT} Models},
-author={Dipendra Yadav and Sumaiya Suravee and Tobias Strau{\ss} and Kristina Yordanova},
-booktitle={4th Multilingual Representation Learning Workshop},
-year={2024},
-url={https://openreview.net/forum?id=qYgu0mndh7}
+@inproceedings{yadav-etal-2024-cross,
+    title = "Cross-Lingual Named Entity Recognition for Low-Resource Languages: A {H}indi-{N}epali Case Study Using Multilingual {BERT} Models",
+    author = "Yadav, Dipendra  and
+      Suravee, Sumaiya  and
+      Strau{\ss}, Tobias  and
+      Yordanova, Kristina",
+    editor = {S{\"a}lev{\"a}, Jonne  and
+      Owodunni, Abraham},
+    booktitle = "Proceedings of the Fourth Workshop on Multilingual Representation Learning (MRL 2024)",
+    month = nov,
+    year = "2024",
+    address = "Miami, Florida, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.mrl-1.12/",
+    doi = "10.18653/v1/2024.mrl-1.12",
+    pages = "167--174",
+    abstract = "This study investigates the potential of cross-lingual transfer learning for Named Entity Recognition (NER) between Hindi and Nepali, two languages that, despite their linguistic similarities, face significant disparities in available resources. By leveraging multilingual BERT models, including RemBERT, BERT Multilingual, MuRIL, and DistilBERT Multilingual, the research examines whether pre-training them on a resource-rich language like Hindi can enhance NER performance in a resource-constrained language like Nepali and vice versa. The study conducts experiments in both monolingual and cross-lingual settings to evaluate the models' effectiveness in transferring linguistic knowledge between the two languages. The findings reveal that while RemBERT and MuRIL perform well in monolingual contexts{---}RemBERT excelling in Hindi and MuRIL in Nepali{---}BERT Multilingual performs comparatively best in cross-lingual scenarios, in generalizing features across the languages. Although DistilBERT Multilingual demonstrates slightly lower performance in cross-lingual tasks, it balances efficiency with competitive results. The study underscores the importance of model selection based on linguistic and resource-specific contexts, highlighting that general-purpose models like BERT Multilingual are particularly well-suited for cross-lingual applications."
 }
 ```
 
